@@ -1,0 +1,14 @@
+[package]
+name = "kryptos"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = "0.10.3"
+anyhow = "1.0.102"
+argon2 = "0.5.3"
+clap = { version = "4.6.0", features = ["derive"] }
+rand = "0.10.0"
+rpassword = "7.4.0"
+secrecy = "0.10.3"
+zeroize = "1.8.2"
